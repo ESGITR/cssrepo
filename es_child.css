@@ -1,5 +1,8 @@
 .product-info-main .pdp-wrapper2 .product-info-wrapper.saleable .subwrapper.product-info-subwrapper2 .store-pickup-wrapper button.action.primary.check-stock {
-    background-color: #fff!important;
-    color: #1d1160!important;
-    border: solid 2px #1d1160!important;
+    background-color: #fff;
+    color: #1d1160;
+    border: solid 2px #1d1160;
+}
+li.menu-item {
+    background-color: #e62012!important;
 }
