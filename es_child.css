@@ -6,3 +6,6 @@
 li.menu-item {
     background-color: #e62012!important;
 }
+.euroshop-icon-euro:before {
+    opacity: 0.8;
+}
