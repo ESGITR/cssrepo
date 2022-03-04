@@ -9,3 +9,12 @@ li.menu-item {
 .euroshop-icon-euro:before {
     opacity: 0.8;
 }
+euroshop-icon-tumbsup{
+    opacity: 0.8;
+}
+usp-item euroshop-icon-box{
+    opacity: 0.8;
+}
+.page-main .block {
+    margin-bottom: 10px;
+}
