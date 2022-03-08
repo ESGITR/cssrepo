@@ -9,10 +9,10 @@ li.menu-item {
 .euroshop-icon-euro:before {
     opacity: 0.8;
 }
-euroshop-icon-tumbsup{
+.euroshop-icon-tumbsup:before{
     opacity: 0.8;
 }
-usp-item euroshop-icon-box{
+.euroshop-icon-box:before{
     opacity: 0.8;
 }
 .page-main .block {
@@ -20,4 +20,7 @@ usp-item euroshop-icon-box{
 }
 .usp-wrapper {
     margin: 60px 0 30px 0;
+}
+.trippel-home-block .trippel-home-block-item {
+    width: 100%;
 }
