@@ -24,3 +24,6 @@ li.menu-item {
 .trippel-home-block .trippel-home-block-item {
     width: 100%;
 }
+.header.content>.logo:before{
+    display:none;
+}
