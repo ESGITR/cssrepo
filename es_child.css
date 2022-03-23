@@ -27,3 +27,6 @@ li.menu-item {
 .header.content>.logo:before{
     display:none;
 }
+.brand-image-wrapper img {
+    height: 5vh;
+}
