@@ -28,5 +28,5 @@ li.menu-item {
     display:none;
 }
 .brand-image-wrapper img {
-    height: 5vh;
+    height: 5vh!important;
 }
