@@ -30,3 +30,7 @@ li.menu-item {
 .brand-image-wrapper img {
     height: 5vh!important;
 }
+.euroshop-footer .euroshop-footer-block-container-big h3 {
+    font-size: 16px;
+    line-height: 30px;
+}
