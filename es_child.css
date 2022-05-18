@@ -38,3 +38,6 @@ li.menu-item {
     font-size: 16px;
     line-height: 30px;
 }
+.fotorama__stage__frame .fotorama__img {
+        padding: 0 20px 0 20px;
+}
