@@ -6,6 +6,9 @@
 li.menu-item {
     background-color: #ee3123!important;
 }
+.usp-wrapper {
+    margin: 60px 0 30px 0;
+}
 .euroshop-icon-euro:before {
     opacity: 0.8;
 }
@@ -18,9 +21,6 @@ li.menu-item {
 .page-main .block {
     margin-bottom: 10px;
 }
-.usp-wrapper {
-    margin: 60px 0 30px 0;
-}
 .trippel-home-block .trippel-home-block-item {
     width: 100%;
 }
@@ -30,6 +30,7 @@ li.menu-item {
 .brand-image-wrapper img {
     height: 5vh!important;
 }
+/*change footer title font size*/
 .euroshop-footer .euroshop-footer-block-container-big h3 {
     font-size: 16px;
     line-height: 30px;
@@ -40,4 +41,37 @@ li.menu-item {
 }
 .fotorama__stage__frame .fotorama__img {
         padding: 0 20px 0 20px;
+}
+
+/*use alternate copyright*/
+.copyright{
+display:none
+}
+.copyright-es span {
+    opacity: .8
+}
+.copyright-es a {
+    color: #575757;
+}
+.copyright-es {
+    background: #fff;
+    color: #575757;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 24px;
+    border: none;
+}
+.copyright-es {
+    box-sizing: border-box;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+.page-footer .footer.content {
+    padding-bottom: 40px;
+}
+@media screen and (min-width: 768px){
+.copyright-es {
+    padding: 30px 0 20px;
+}
 }
