@@ -102,3 +102,25 @@ display:none
 .message.global p {
     text-align: center;
 }
+/*extra menu CTA*/
+.menu-main-wrapper h3::after {
+    font-family: 'icomoon' !important;
+    padding-left:5px;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    content: "\e900";
+    display: inline-block;
+    vertical-align: middle;
+}
+.menu-main-wrapper h3 {
+    font-size: 20px;
+    font-family: ProximaNova-Regular;
+    margin-top:8px;
+    color:#ffef2a;
+}
