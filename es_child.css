@@ -93,7 +93,7 @@ display:none
 }
 /*cookie*/
 .message.global.noscript, .message.global.cookie {
-    color:#333;
+    background:#333;
     opacity:0.95;
 }
 .message.global.cookie .actions {
