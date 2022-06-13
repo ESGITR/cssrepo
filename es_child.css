@@ -124,3 +124,68 @@ display:none
     margin-top:8px;
     color:#ffef2a;
 }
+/*smart bar*/
+*{margin: 0;padding: 0}
+
+/* Smart Bar */
+@keyframes fade{from{opacity: 0}to{opacity: 1}}
+@-moz-keyframes fade{from{opacity: 0}to{opacity: 1}}
+@-webkit-keyframes fade{from{opacity: 0}to{opacity: 1}}
+@-ms-keyframes fade{from{opacity: 0}to{opacity: 1}}
+@-o-keyframes fade{from{opacity: 0}to{opacity: 1}}
+
+.smart-bar{
+  position: relative;
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 1.8;
+  text-align: center;
+  padding: 10px;
+  background: #fffa66;
+  color:#000;
+  text-shadow: none!important
+}
+
+.smart-bar strong{
+  font-weight: bold;
+  animation: fade 2s infinite;
+  -webkit-animation: fade 2s infinite;
+  -o-animation: fade 2s infinite;
+  -moz-animation: fade 2s infinite;
+  color: #000
+}
+
+.smart-bar a{
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  position: relative;
+  border: solid 1px #000;
+  border-radius: 6px;
+  font-weight: regular;
+  padding: 0px 20px;
+
+.smart-bar a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    position: relative;
+    border: solid 1px #000;
+    border-radius: 6px;
+    font-weight: regular;
+    padding: 0px 20px;
+    margin-left: 30px;
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+}
+  transition: all .2s linear;
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  -moz-transition: all .2s linear
+}
+.smart-bar a:hover{
+  background: #000;
+  color: #fff
+}
