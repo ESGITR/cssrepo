@@ -125,6 +125,11 @@ display:none
     color:#ffef2a;
 }
 /*smart bar*/
+.page-header .header.content {
+    padding-top: 0px!important;
+    margin: 42px auto!important;
+}
+
 *{margin: 0;padding: 0}
 
 /* Smart Bar */
