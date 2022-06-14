@@ -155,16 +155,6 @@ display:none
   color: #000
 }
 
-.smart-bar a{
-  display: inline-block;
-  text-decoration: none;
-  color: #000;
-  position: relative;
-  border: solid 1px #000;
-  border-radius: 6px;
-  font-weight: regular;
-  padding: 0px 20px;
-
 .smart-bar a {
     display: inline-block;
     text-decoration: none;
