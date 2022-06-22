@@ -124,15 +124,11 @@ display:none
     margin-top:8px;
     color:#ffef2a;
 }
-/*smart bar*/
+/* Smart Bar */
 .page-header .header.content {
     padding-top: 0px!important;
     margin: 42px auto!important;
 }
-
-*{margin: 0;padding: 0}
-
-/* Smart Bar */
 @keyframes fade{from{opacity: 0}to{opacity: 1}}
 @-moz-keyframes fade{from{opacity: 0}to{opacity: 1}}
 @-webkit-keyframes fade{from{opacity: 0}to{opacity: 1}}
@@ -183,5 +179,11 @@ display:none
 @media screen and (max-width: 768px){
 .page-header .header.content {
     margin: 5px auto!important;
+}
+}
+/* breadcrumb dividers */
+@media screen and (min-width: 768px){
+.breadcrumbs .items .item:not(:last-child):after {
+    line-height: 28px!important;
 }
 }
