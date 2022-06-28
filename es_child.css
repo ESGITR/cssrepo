@@ -124,6 +124,10 @@ display:none
     margin-top:8px;
     color:#ffef2a;
 }
+li.push-right {
+    background: #ee3123;
+    color: #fff;
+}
 /* Smart Bar */
 .page-header .header.content {
     padding-top: 0px!important;
