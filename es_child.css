@@ -191,3 +191,7 @@ li.push-right {
     line-height: 28px!important;
 }
 }
+/*psp image background*/
+.fotorama__img{
+    background: #fff;
+}
