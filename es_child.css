@@ -195,3 +195,11 @@ li.push-right {
 .fotorama__img{
     background: #fff;
 }
+/*system font preload*/
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans') url('https://www.euroshop.be/static/version1649655174/frontend/Euroshop/euroshop/nl_BE/fonts/opensans/regular/opensans-400.woff2') format('woff2');
+}  
+     
+     
+   
