@@ -135,3 +135,37 @@ li.push-right {
 .recommend-component {
     display: none!important;
 }
+/* upgrade layout*/
+/*pdp*/
+@media (min-width: 769px), print{
+.page-layout-1column .product-info-main2 .pdp-wrapper3 .info-detailed-title {
+    color: #03031a;
+    font-size: 26px;
+    line-height: 30px;
+}
+.page-layout-1column .product-info-main2 .pdp-wrapper3 .product.info.detailed .product.data.items>.item.title>.switch {
+    color: #03031a;
+    font-size: 22px;
+    line-height: 30px;
+}
+.page-layout-1column .product-info-main2 .pdp-wrapper4 .additional-attributes-wrapper .data.switch {
+    font-family: ProximaNova-Bold;
+    color: #03031a;
+    font-size: 22px;
+    line-height: 30px;
+}
+.catalog-product-view .block-title {
+    color: #03031a;
+    font-size: 26px;
+    line-height: 30px;
+}
+.page-layout-1column .product-info-main2 .pdp-wrapper3 .product.info.detailed {
+    margin: 25px 0 0;
+}
+.block.related {
+    border-top: 1px solid #e6e6e8;
+}
+.page-layout-1column .product-info-main, .page-layout-1column .product-info-main2 {
+    border-top: 1px solid #e6e6e8;
+}
+}
