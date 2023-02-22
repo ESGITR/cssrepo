@@ -105,7 +105,7 @@ display:none
 .message.global p {
     text-align: center;
 }
-/*extra menu CTA*/
+/*extra menu item CTA*/
 .menu-main-wrapper h3::after {
     font-family: 'icomoon' !important;
     padding-left:5px;
@@ -130,79 +130,8 @@ display:none
 li.push-right {
     background: #ee3123;
     color: #fff;
+}   
+/*recommend component*/
+.recommend-component {
+    display: none!important;
 }
-/* Smart Bar */
-.page-header .header.content {
-    padding-top: 0px!important;
-    margin: 42px auto!important;
-}
-@keyframes fade{from{opacity: 0}to{opacity: 1}}
-@-moz-keyframes fade{from{opacity: 0}to{opacity: 1}}
-@-webkit-keyframes fade{from{opacity: 0}to{opacity: 1}}
-@-ms-keyframes fade{from{opacity: 0}to{opacity: 1}}
-@-o-keyframes fade{from{opacity: 0}to{opacity: 1}}
-
-.smart-bar{
-  position: relative;
-  overflow: hidden;
-  font-size: 14px;
-  line-height: 1.8;
-  text-align: center;
-  padding: 10px;
-  background: #fffa66;
-  color:#000;
-  text-shadow: none!important
-}
-
-.smart-bar strong{
-  font-weight: bold;
-  animation: fade 2s infinite;
-  -webkit-animation: fade 2s infinite;
-  -o-animation: fade 2s infinite;
-  -moz-animation: fade 2s infinite;
-  color: #000
-}
-
-.smart-bar a {
-    display: inline-block;
-    text-decoration: none;
-    color: #000;
-    position: relative;
-    border: solid 1px #000;
-    border-radius: 6px;
-    font-weight: regular;
-    padding: 0px 20px;
-    margin-left: 30px;
-    transition: all .2s linear;
-    -webkit-transition: all .2s linear;
-    -o-transition: all .2s linear;
-    -moz-transition: all .2s linear;
-}
-    
-.smart-bar a:hover{
-  background: #000;
-  color: #fff
-}
-@media screen and (max-width: 768px){
-.page-header .header.content {
-    margin: 5px auto!important;
-}
-}
-/* breadcrumb dividers */
-@media screen and (min-width: 768px){
-.breadcrumbs .items .item:not(:last-child):after {
-    line-height: 28px!important;
-}
-}
-/*psp image background*/
-.fotorama__img{
-    background: #fff;
-}
-/*system font preload*/
-@font-face {
-    font-family: 'Open Sans';
-    src: local('Open Sans') url('https://www.euroshop.be/static/version1649655174/frontend/Euroshop/euroshop/nl_BE/fonts/opensans/regular/opensans-400.woff2') format('woff2');
-}  
-     
-     
-   
