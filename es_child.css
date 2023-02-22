@@ -165,7 +165,7 @@ li.push-right {
 .block.related {
     border-top: 1px solid #e6e6e8;
 }
-.page-layout-1column .product-info-main, .page-layout-1column .product-info-main2 {
+.product-info-main2 {
     border-top: 1px solid #e6e6e8;
 }
 }
