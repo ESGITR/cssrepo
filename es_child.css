@@ -168,4 +168,7 @@ li.push-right {
 .product-info-main2 {
     border-top: 1px solid #e6e6e8;
 }
+.product.attribute.description ul {
+    margin-left: 10px;
+}
 }
