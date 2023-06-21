@@ -175,3 +175,32 @@ li.push-right {
     margin-left: 10px;
 }
 }
+/*footer*/
+.footer-background {
+    height: 400%;
+    position: absolute;
+    opacity: .05;
+    transform: rotate(-0deg) translate(-200px,-420px);
+    z-index: -3;
+    }
+.page-footer {
+    position: relative;
+    overflow: hidden;
+}
+.euroshop-footer-block-container {
+    z-index: 1;
+}
+.block.newsletter .form.subscribe {
+    padding-top: 5px;
+}
+input#newsletter {
+    border-radius: 5px 0 0 5px!important;
+}
+.euroshop-footer .euroshop-footer-block-container .block.newsletter .actions .action.primary, .euroshop-footer .euroshop-footer-block-container-big .block.newsletter .actions .action.primary {
+    border-radius: 0 5px 5px 0!important;
+}
+@media only screen and (max-width: 767px){
+    .footer-background {
+        display:none
+    }
+}
