@@ -204,3 +204,10 @@ input#newsletter {
         display:none
     }
 }
+/*remove search iconbox on mobile*/
+.page-header .header.content .euroshop-mobile-tile-language {
+margin-right: 10px
+}
+.euroshop-mobile-tile-search.euroshop-icon-search.euroshop-button-tile-mobile {
+    display: none!important;
+}
