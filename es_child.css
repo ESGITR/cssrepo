@@ -211,3 +211,16 @@ margin-right: 10px
 .euroshop-mobile-tile-search.euroshop-icon-search.euroshop-button-tile-mobile {
     display: none!important;
 }
+/*global*/
+a:hover, .alink:hover {
+    color: #ee3123;
+    text-decoration: underline;
+}
+a:visited, .alink:visited {
+    color: #ee3123;
+    text-decoration: none;
+}
+a, .alink {
+    color: #ee3123;
+    text-decoration: underline;
+}
