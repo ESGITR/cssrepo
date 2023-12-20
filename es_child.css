@@ -75,7 +75,7 @@ display:none
 }
 @media screen and (min-width: 768px){
 .copyright-es {
-    padding: 20px 0 20px;
+    padding: 15px 0 15px;
 }
 .breadcrumbs .items .item:not(:last-child):after {
     line-height: 28px;
