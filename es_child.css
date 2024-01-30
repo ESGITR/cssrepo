@@ -208,6 +208,19 @@ input#newsletter {
 .page-header .header.content .euroshop-mobile-tile-language {
 margin-right: 10px
 }
+/*hrefs color*/
+a:visited, .alink:visited {
+    color: #ee3123;
+    text-decoration: none;
+}
+a, .alink {
+    color: #ee3123;
+    text-decoration: none;
+}
+a:hover, .alink:hover {
+    color: #ee3123;
+    text-decoration: underline;
+}
 .euroshop-mobile-tile-search.euroshop-icon-search.euroshop-button-tile-mobile {
     display: none!important;
 }
