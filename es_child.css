@@ -210,7 +210,6 @@ margin-right: 10px
 }
 /*hrefs color*/
 a:visited, .alink:visited {
-    color: #ee3123;
     text-decoration: none;
 }
 a, .alink {
