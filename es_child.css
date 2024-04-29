@@ -42,7 +42,9 @@ li.menu-item {
 .fotorama__stage__frame .fotorama__img {
         padding: 0 20px 0 20px;
 }
-
+.fotorama__thumb {
+    background-color: #fff;
+}
 /*use alternate copyright*/
 .copyright{
 display:none
