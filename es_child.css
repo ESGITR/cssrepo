@@ -232,4 +232,7 @@ a:hover, .alink:hover {
 .menu-main a:visited {
     color: #ffffff;
 }
-
+/*modern blog*/
+.blog-post-view .page-title-wrapper {
+    display: block!important;
+}
